@@ -6,6 +6,8 @@ Play against another player, enjoy animations, and reset the board anytime!
 ---
 
 ## 🚀 Features
+
+
 - Two-player gameplay (X and O).
 - Highlight winning cells.
 - Detects draw situations.
@@ -13,7 +15,8 @@ Play against another player, enjoy animations, and reset the board anytime!
 - Reset button to start a new game.
 
 
-📂 Folder Structure
+## 📂 Folder Structure
+
 tic-tac-toe/
 │-- src/
 │   │-- App.jsx
@@ -26,7 +29,7 @@ tic-tac-toe/
 │-- README.md
 
 
-🎯 Future Improvements
+## 🎯 Future Improvements
 
 Add AI opponent (Easy/Hard mode).
 Add multiplayer (online) support.
