@@ -1,0 +1,114 @@
+body{
+  background-color: #bdc3c7;
+}
+.button{
+  border: solid 3px #000000;
+  height: 130px;
+  background-color: #ffffff;
+  color:#2c3e50;
+  font-size: 70px;
+  font-weight: bolder;
+}
+.buttons{
+  border: solid 3px #000000;
+  height: 130px;
+  background-color: #02101f;
+  color:whitesmoke;
+  font-size: 70px;
+  font-weight: bolder;
+  animation: blink 4s infinite alternate;
+
+}
+h1{
+  text-align: center;
+  font-size: 45px;
+}
+.container{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  width:60%;
+  margin-left:auto;
+  margin-right:auto;
+  border: 15px solid #ffffff;
+}
+.game{
+  display: none;
+}
+
+.win{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100px;
+  font-size: 30px;
+  color: rgb(207, 203, 203);
+  background-color: #114357;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px rgb(204, 202, 202);
+  border-style:solid;
+  
+}
+.chance{
+  font-size: 25px;
+  font-weight: 400;
+  text-align: center;
+  animation-name: colorAnimation;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  width: 50%;
+  transition: 2ms;
+  margin-left: auto;
+  margin-right: auto;
+}
+.turn{
+  font-size: 30px;
+
+}
+@keyframes colorAnimation{
+  0%{
+    background-color: #114357;
+    color: #F29492 ;
+    font-weight: 800;
+  }
+  25%{
+    background-color: #F29492;
+    font-weight: 600;
+    color:#09303f ;
+
+  }
+  50%{
+    background-color: #114357;
+    font-weight: 400;
+    color: #F29492 ;
+  }
+  100%{
+    background-color: #F29492;
+    font-weight: 600;
+    color: #072f3e;
+
+  }
+
+}
+.Reset{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10%;
+  height: 40px;
+  font-size: 25px;
+  color: #09303f;
+  position: relative;
+  top: -59px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(207, 204, 204);
+  border: none;
+  border-radius:8px;
+}
+@keyframes blink {
+  from{background-color: #02101f;
+  }
+  to{background-color: rgb(98, 0, 117);}
+}
